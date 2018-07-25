@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="OtpVerificationView">
+        <attr name="OTPTextColor" format="color|reference" />
+        <attr name="OTPTextCount" format="integer" />
+        <attr name="OTPLineWidth" format="dimension" />
+        <attr name="OTPFont" format="string|reference" />
+        <attr name="OTPInputTypePassword" format="boolean" />
+    </declare-styleable>
+</resources>
