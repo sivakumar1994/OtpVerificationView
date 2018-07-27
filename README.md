@@ -9,6 +9,18 @@ Provides a widget for enter OTP verification view
 
 ###  Step 1:
 
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+    
+    	dependencies {
+	        implementation 'com.github.sivakumar1994:OtpVerificationView:-SNAPSHOT'
+	}
+    
+
 Add OtpVerification View in your layout.
 ###  XML:
     <com.otp.otpverificationviewlib.OtpVerificationView
